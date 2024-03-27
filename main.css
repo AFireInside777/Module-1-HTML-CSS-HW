@@ -1,0 +1,192 @@
+#availableshows {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 55px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+body header {
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+}
+
+#buttonbox {
+    display: flex;
+}
+
+button {
+    background-color: rgb(255, 153, 0);
+    height: 80px;
+    width: 160px;
+    font-size: 25px;
+    margin: auto;
+    font-family: 'Roboto'
+}
+
+#featuredshows {
+    display: flex;
+    height: 831px;
+    background-image: url(static/images/theater-image-background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: -70px;
+    color: white;
+}
+
+#feattext{
+    margin: auto;
+    font-size: 185px;
+    font-family: 'Roboto'
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+
+h1 {
+    font-size: 35px;
+}
+li {
+    display: inline;
+    margin-right: 60px;
+}
+
+li a {
+    color: white;
+}
+
+section {
+    width: 100%
+}
+
+#sitetitle {
+    margin: auto;
+    font-family: 'Roboto';
+    color: white;
+}
+
+#theatername {
+    display: flex;
+    height: 100%;
+    width: 40%;
+}
+
+#theaterlinks {
+    height: 100%;
+    width: 60%; 
+    font-family: 'Roboto';
+    display: flex;
+}
+
+
+
+#theaterinfo {
+    width: 70%;
+}
+
+ul {
+    margin: auto;
+}
+
+.row {
+    width: 90%;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.show{
+    display: flex;
+    justify-content: space-evenly;
+    height: 250px;
+    width: 1380px;
+    background-color: transparent;
+    border: 2px solid white;
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#playpic{
+    background-image: url(static/images/a-raisin-in-the-sun-theater-1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.infobox{
+    width: 30%;
+    height: 100%;
+}
+
+#searchshows {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    width: 65%;
+}
+
+#showinfo{
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    padding-bottom: auto;
+    font-family: 'Roboto'
+}
+
+#stitle:before{
+    content: "A Raisin in the Sun";
+    color: black;
+}
+
+#sdates:before{
+    content: "April 6, 2020 - March 12 2021";
+    color: black;
+}
+
+#slocation:before{
+    content: "Griot Theater, 233 State St Chicago,IL";
+    color: black;
+}
+
+#sprice:before{
+    content: "$75";
+    color: black;
+}
+
+#searchinput {
+    width: 100%;
+}
+
+hr {
+    width: 65%;
+    height: 69px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(0, 0, 0);
+    opacity: 91;
+}
+
+
+footer {
+    height: max-content;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 80px;
+    color: white;
+    font-family: 'Roboto'
+}
